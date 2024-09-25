@@ -1,0 +1,13 @@
+- caseId: 2
+  apiName: userinfo
+  describe: 用户信息
+  url: /test/userinfo
+  requestType: get
+  headers: {"accesstoken":"${accessToken}"}
+  cookies:
+  parameters: {"name":"xiaohe"}
+  uploadFile:
+  initSql: SELECT * FROM user_info WHERE username="xiaohe";
+  extractVariables:
+  expectedResults:
+  actualResults: {"data":"$.data.addr"}

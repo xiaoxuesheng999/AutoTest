@@ -1,0 +1,135 @@
+[
+  {
+    "description": "登录",
+    "request":{
+      "uri": "/test/login",
+      "method": "post",
+      "forms": {
+        "username": "admin",
+        "password": "123456",
+        "verification": "A8b52"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "msg": "登录成功",
+        "username": "admin",
+        "phone": "18520262643",
+        "email": "454421989@qq.com",
+        "accessToken": "cec616fae8f0420548632caae4147f77"
+      }
+    }
+  },
+  {
+    "description": "查询用户",
+    "request": {
+      "uri": "/test/userinfo",
+      "method": "get",
+      "headers":{
+        "accesstoken": "cec616fae8f0420548632caae4147f77"
+      },
+      "queries": {
+        "name": "xiaohe"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "msg": "数据请求成功",
+        "data": {
+          "id": "1",
+          "name": "xiaohe",
+          "age": "34",
+          "gender": "男",
+          "addr": "南海"
+        }
+      }
+    }
+  },
+  {
+    "description": "新增用户",
+    "request": {
+      "uri": "/test/adduser",
+      "method": "post",
+      "headers": {
+        "Content-Type":"application/json",
+        "accesstoken": "cec616fae8f0420548632caae4147f77"
+      },
+      "json": {
+        "id": "10",
+        "name": "xiaojin",
+        "age": "30",
+        "gender": "1",
+        "addr": "nanhai"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "msg": "用户添加成功"
+      }
+    }
+  },
+  {
+    "description": "更新用户",
+    "request": {
+      "uri": "/test/updateuser",
+      "method": "put",
+      "headers": {
+        "Content-Type":"application/json",
+        "accesstoken": "cec616fae8f0420548632caae4147f77"
+      },
+      "json": {
+        "id": "10",
+        "name": "xiaojin",
+        "age": "30",
+        "gender": "1",
+        "addr": "shunde"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "msg": "更新成功",
+        "updatedAt": "2024-09-24T12:00:00Z"
+      }
+    }
+  },
+  {
+    "description": "删除用户",
+    "request": {
+      "uri": "/test/deleteuser",
+      "method": "delete",
+      "headers": {
+        "accesstoken": "cec616fae8f0420548632caae4147f77"
+      },
+      "queries": {
+        "id": "10"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "msg": "删除成功"
+      }
+    }
+  },
+  {
+    "description": "文件上传",
+    "request": {
+      "uri": "/test/upload",
+      "method": "post",
+      "headers": {
+        "accesstoken": "cec616fae8f0420548632caae4147f77",
+        "Content-Type":"application/x-www-form-urlencoded"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "msg": "上传成功"
+      }
+    }
+  }
+]

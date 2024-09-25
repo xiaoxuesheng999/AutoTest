@@ -1,0 +1,1 @@
+{password=123456, verification=A8b52, username=fangting}

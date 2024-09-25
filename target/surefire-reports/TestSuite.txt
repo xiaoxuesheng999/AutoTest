@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 2.333 s <<< FAILURE! - in TestSuite
+login(com.autotest.testcase.unittest.LoginApiTest)  Time elapsed: 0.028 s  <<< FAILURE!
+java.lang.reflect.InvocationTargetException
+	at com.autotest.testcase.unittest.LoginApiTest.reflect(LoginApiTest.java:29)
+	at com.autotest.testcase.unittest.LoginApiTest.login(LoginApiTest.java:55)
+Caused by: java.lang.Exception: Failed : HTTP error code : 400
+	at com.autotest.testcase.unittest.LoginApiTest.reflect(LoginApiTest.java:29)
+	at com.autotest.testcase.unittest.LoginApiTest.login(LoginApiTest.java:55)
+
+login(com.autotest.testcase.unittest.LoginApiTest)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.reflect.InvocationTargetException
+	at com.autotest.testcase.unittest.LoginApiTest.reflect(LoginApiTest.java:29)
+	at com.autotest.testcase.unittest.LoginApiTest.login(LoginApiTest.java:55)
+Caused by: java.lang.Exception: Failed : HTTP error code : 400
+	at com.autotest.testcase.unittest.LoginApiTest.reflect(LoginApiTest.java:29)
+	at com.autotest.testcase.unittest.LoginApiTest.login(LoginApiTest.java:55)
+
+login(com.autotest.testcase.unittest.LoginApiTest)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.reflect.InvocationTargetException
+	at com.autotest.testcase.unittest.LoginApiTest.reflect(LoginApiTest.java:29)
+	at com.autotest.testcase.unittest.LoginApiTest.login(LoginApiTest.java:55)
+Caused by: java.lang.Exception: Failed : HTTP error code : 400
+	at com.autotest.testcase.unittest.LoginApiTest.reflect(LoginApiTest.java:29)
+	at com.autotest.testcase.unittest.LoginApiTest.login(LoginApiTest.java:55)
+

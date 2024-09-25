@@ -1,0 +1,13 @@
+- caseId: 6
+  apiName: upload
+  describe: 上传文件
+  url: /test/upload
+  requestType: post
+  headers: {"accesstoken":"${accessToken}","Content-Type":"application/x-www-form-urlencoded"}
+  cookies:
+  parameters: {"file":"D://xxxx.txt"}
+  uploadFile:
+  initSql:
+  extractVariables:
+  expectedResults: "上传成功"
+  actualResults: {"msg":"$.msg"}

@@ -1,0 +1,13 @@
+- caseId: 4
+  apiName: updateuser
+  describe: 更新用户
+  url: /test/updateuser
+  requestType: put
+  headers: {"accesstoken":"${accessToken}","Content-Type":"application/json",}
+  cookies:
+  parameters: {"id": "10","name": "xiaojin","age": "30","gender": "1","addr": "shunde"}
+  uploadFile:
+  initSql:
+  extractVariables:
+  expectedResults: 更新成功
+  actualResults: {"msg":"$.msg"}

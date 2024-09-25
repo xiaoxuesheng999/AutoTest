@@ -1,0 +1,233 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.autotest.testcase",
+    "children" : [ {
+      "name" : "Integrationtest.UserModuleTest",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "189a0c8502f4eb1f",
+        "parentUid" : "a0a96d0fd341991c22328d7a5b9528d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727181186329,
+          "stop" : 1727181186879,
+          "duration" : 550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "adduser",
+        "uid" : "49952f0c656bbc7c",
+        "parentUid" : "a0a96d0fd341991c22328d7a5b9528d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727181186935,
+          "stop" : 1727181187180,
+          "duration" : 245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "deleteuser",
+        "uid" : "294ae24dbdd1e21a",
+        "parentUid" : "a0a96d0fd341991c22328d7a5b9528d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727181187186,
+          "stop" : 1727181187208,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "updateuser",
+        "uid" : "72c2b106b586f8f6",
+        "parentUid" : "a0a96d0fd341991c22328d7a5b9528d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727181187211,
+          "stop" : 1727181187227,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "upload",
+        "uid" : "7daa6ec81d4f2c40",
+        "parentUid" : "a0a96d0fd341991c22328d7a5b9528d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727181187230,
+          "stop" : 1727181187245,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "userinfo",
+        "uid" : "b5fa4f257011db30",
+        "parentUid" : "a0a96d0fd341991c22328d7a5b9528d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727181187248,
+          "stop" : 1727181187610,
+          "duration" : 362
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "Integrationtest.UserModuleTest"
+    }, {
+      "name" : "unittest",
+      "children" : [ {
+        "name" : "LoginApiTest",
+        "children" : [ {
+          "name" : "login",
+          "uid" : "15cdcee942c44619",
+          "parentUid" : "81683c294485bef89d0009f69bf1cc04",
+          "status" : "passed",
+          "time" : {
+            "start" : 1727181187618,
+            "stop" : 1727181187644,
+            "duration" : 26
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "admin", "123456", "A8b52" ]
+        }, {
+          "name" : "login",
+          "uid" : "9d2f062c76359de4",
+          "parentUid" : "81683c294485bef89d0009f69bf1cc04",
+          "status" : "broken",
+          "time" : {
+            "start" : 1727181187648,
+            "stop" : 1727181187664,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "fangting", "123456", "A8b52" ]
+        }, {
+          "name" : "login",
+          "uid" : "1b88ea051ec06ac0",
+          "parentUid" : "81683c294485bef89d0009f69bf1cc04",
+          "status" : "broken",
+          "time" : {
+            "start" : 1727181187669,
+            "stop" : 1727181187685,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "admin", "123", "A8b52" ]
+        }, {
+          "name" : "login",
+          "uid" : "8bdf4b57398889e",
+          "parentUid" : "81683c294485bef89d0009f69bf1cc04",
+          "status" : "broken",
+          "time" : {
+            "start" : 1727181187688,
+            "stop" : 1727181187699,
+            "duration" : 11
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "admin", "123456", "Abc" ]
+        } ],
+        "uid" : "81683c294485bef89d0009f69bf1cc04"
+      }, {
+        "name" : "AddUserApiTest",
+        "children" : [ {
+          "name" : "login",
+          "uid" : "6b4c96614c163c8e",
+          "parentUid" : "0a966cf8a271cb003c8c6b7754e399d7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1727181187702,
+            "stop" : 1727181187717,
+            "duration" : 15
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "adduser",
+          "uid" : "90fcfd9a8e346cb2",
+          "parentUid" : "0a966cf8a271cb003c8c6b7754e399d7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1727181187719,
+            "stop" : 1727181187733,
+            "duration" : 14
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "10", "xiaojin", "30", "1", "nanhai" ]
+        }, {
+          "name" : "adduser",
+          "uid" : "4bb7b28673b7ea4e",
+          "parentUid" : "0a966cf8a271cb003c8c6b7754e399d7",
+          "status" : "broken",
+          "time" : {
+            "start" : 1727181187738,
+            "stop" : 1727181187752,
+            "duration" : 14
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "xx", "><:", "abc", "1", "why" ]
+        }, {
+          "name" : "adduser",
+          "uid" : "5287ffa61abf486c",
+          "parentUid" : "0a966cf8a271cb003c8c6b7754e399d7",
+          "status" : "broken",
+          "time" : {
+            "start" : 1727181187756,
+            "stop" : 1727181187769,
+            "duration" : 13
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "select * from adduser", "xiaojin", "30", "1", "nanhai" ]
+        }, {
+          "name" : "adduser",
+          "uid" : "8e4460239974fd5d",
+          "parentUid" : "0a966cf8a271cb003c8c6b7754e399d7",
+          "status" : "broken",
+          "time" : {
+            "start" : 1727181187772,
+            "stop" : 1727181187787,
+            "duration" : 15
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "A", "中文", "??", "4", "nanhai" ]
+        }, {
+          "name" : "adduser",
+          "uid" : "9171f57933560b69",
+          "parentUid" : "0a966cf8a271cb003c8c6b7754e399d7",
+          "status" : "broken",
+          "time" : {
+            "start" : 1727181187791,
+            "stop" : 1727181187806,
+            "duration" : 15
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "10", "xiaojin", "30", "nanhai", "" ]
+        } ],
+        "uid" : "0a966cf8a271cb003c8c6b7754e399d7"
+      } ],
+      "uid" : "261beb4542115c33b5aa6f30c6e755c2"
+    } ],
+    "uid" : "com.autotest.testcase"
+  } ]
+}

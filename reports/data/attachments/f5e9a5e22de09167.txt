@@ -1,0 +1,1 @@
+{gender=1, name=xiaojin, id=select * from adduser, addr=nanhai, age=30}

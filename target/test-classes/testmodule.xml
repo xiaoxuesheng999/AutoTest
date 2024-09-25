@@ -1,0 +1,9 @@
+<suite name="apiAutoTest" verbose="1">
+    <test name="test" enabled="true">  <!--test必须有name属性-->
+        <classes>
+            <class name="com.autotest.testcase.Integrationtest.UserModuleTest"/>
+            <class name="com.autotest.testcase.unittest.LoginApiTest"></class>
+            <class name="com.autotest.testcase.unittest.AddUserApiTest"></class>
+        </classes>
+    </test>
+</suite>

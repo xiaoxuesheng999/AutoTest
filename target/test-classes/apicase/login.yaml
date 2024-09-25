@@ -1,0 +1,14 @@
+- caseId: 1
+  apiName: login
+  describe: 登录
+  url: /test/login
+  requestType: post
+  headers: {"Content-Type":"application/x-www-form-urlencoded"}
+  cookies:
+  parameters: {"username":"admin", "password":"123456","verification": "A8b52"}
+  uploadFile:
+  initSql:
+  extractVariables: {"accessToken":"$.accessToken"}
+  expectedResults: 登录成功
+  actualResults: {"msg":"$.msg"}
+

@@ -1,0 +1,13 @@
+- caseId: 3
+  apiName: adduser
+  describe: 添加用户
+  url: /test/adduser
+  requestType: post
+  headers: {"accesstoken":"${accessToken}","Content-Type":"application/json"}
+  cookies:
+  parameters: {"id": "10","name": "xiaojin","age": "30","gender": "1","addr": "nanhai"}
+  uploadFile:
+  initSql:
+  extractVariables:
+  expectedResults: 用户添加成功
+  actualResults: {"msg":"$.msg"}

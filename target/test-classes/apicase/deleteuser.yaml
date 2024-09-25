@@ -1,0 +1,13 @@
+- caseId: 5
+  apiName: deleteuser
+  describe: 删除用户
+  url: /test/deleteuser
+  requestType: delete
+  headers: {"accesstoken":"${accessToken}"}
+  cookies:
+  parameters: {"id": "10"}
+  uploadFile:
+  initSql:
+  extractVariables:
+  expectedResults: 删除成功
+  actualResults: {"msg":"$.msg"}

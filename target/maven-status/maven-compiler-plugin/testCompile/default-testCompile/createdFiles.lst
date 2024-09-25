@@ -1,0 +1,11 @@
+com\autotest\utils\YamlToObj.class
+com\autotest\utils\RequestMethod.class
+com\autotest\testcase\Integrationtest\UserModuleTest.class
+com\autotest\entity\YamlModel.class
+com\autotest\utils\ExtractVariables.class
+com\autotest\utils\LinkDataBase.class
+com\autotest\utils\LinkDataBase$ResultSetHandler.class
+com\autotest\utils\AssertUtil.class
+com\autotest\utils\RestructureData.class
+com\autotest\testcase\unittest\LoginApiTest.class
+com\autotest\utils\ReadProperties.class

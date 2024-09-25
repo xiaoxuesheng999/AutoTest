@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="com.autotest.testcase.Integrationtest.UserModuleTest">
+        <methods>
+          <include name="prepareTest"/>
+          <include name="closeTest"/>
+        </methods>
+      </class> <!-- com.autotest.testcase.Integrationtest.UserModuleTest -->
+      <class name="com.autotest.testcase.unittest.LoginApiTest">
+        <methods>
+          <include name="login" invocation-numbers="1 2 3"/>
+        </methods>
+      </class> <!-- com.autotest.testcase.unittest.LoginApiTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

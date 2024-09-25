@@ -1,0 +1,173 @@
+{
+  "uid" : "6b4c96614c163c8e",
+  "name" : "login",
+  "fullName" : "com.autotest.testcase.unittest.AddUserApiTest.login",
+  "historyId" : "6c7a7133c02b9dac0f69cd871f1a12dd",
+  "time" : {
+    "start" : 1727181187702,
+    "stop" : 1727181187717,
+    "duration" : 15
+  },
+  "description" : "获取token令牌",
+  "descriptionHtml" : "<p>获取token令牌</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "prepareTest",
+    "time" : {
+      "start" : 1727181186240,
+      "stop" : 1727181186249,
+      "duration" : 9
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "abd7bfd012e95aa",
+      "name" : "连接数据库",
+      "source" : "abd7bfd012e95aa.txt",
+      "type" : "text/plain",
+      "size" : 21
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "获取token令牌",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "832c670f06987dfc",
+      "name" : "请求地址：",
+      "source" : "832c670f06987dfc.txt",
+      "type" : "text/plain",
+      "size" : 32
+    }, {
+      "uid" : "5c377286c433cb4d",
+      "name" : "请求方法",
+      "source" : "5c377286c433cb4d.txt",
+      "type" : "text/plain",
+      "size" : 4
+    }, {
+      "uid" : "cd085cab550710ad",
+      "name" : "请求参数",
+      "source" : "cd085cab550710ad.txt",
+      "type" : "text/plain",
+      "size" : 53
+    }, {
+      "uid" : "1686f83617e7d41",
+      "name" : "请求头:",
+      "source" : "1686f83617e7d41.txt",
+      "type" : "text/plain",
+      "size" : 48
+    }, {
+      "uid" : "53e660608a442222",
+      "name" : "响应体:",
+      "source" : "53e660608a442222.txt",
+      "type" : "text/plain",
+      "size" : 139
+    }, {
+      "uid" : "e2bba2aab2dd764a",
+      "name" : "预期结果",
+      "source" : "e2bba2aab2dd764a.txt",
+      "type" : "text/plain",
+      "size" : 12
+    }, {
+      "uid" : "1e4d508ab28fb9ca",
+      "name" : "实际结果",
+      "source" : "1e4d508ab28fb9ca.txt",
+      "type" : "text/plain",
+      "size" : 12
+    }, {
+      "uid" : "cf0bd76219a49bde",
+      "name" : "断言结果",
+      "source" : "cf0bd76219a49bde.txt",
+      "type" : "text/plain",
+      "size" : 12
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeTest",
+    "time" : {
+      "start" : 1727181187811,
+      "stop" : 1727181187812,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "50bc1a47820cbe61",
+      "name" : "清理数据",
+      "source" : "50bc1a47820cbe61.txt",
+      "type" : "text/plain",
+      "size" : 15
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.autotest.testcase.unittest.AddUserApiTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.autotest.testcase.unittest.AddUserApiTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "apiAutoTest"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.autotest.testcase.unittest.AddUserApiTest"
+  }, {
+    "name" : "host",
+    "value" : "xiaohe0128"
+  }, {
+    "name" : "thread",
+    "value" : "27788@xiaohe0128.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "添加用户接口"
+  }, {
+    "name" : "epic",
+    "value" : "接口单元测试"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b4c96614c163c8e.json",
+  "parameterValues" : [ ]
+}
