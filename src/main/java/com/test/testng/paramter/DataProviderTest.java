@@ -22,6 +22,7 @@ public class DataProviderTest {
         return o;
     }
 
+
     //根据不同方法，传不同参
     @Test(dataProvider = "methodData")
     public void test1(String name, int age) {

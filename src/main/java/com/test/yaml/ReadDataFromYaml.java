@@ -1,6 +1,5 @@
 package com.test.yaml;
 
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 
@@ -8,8 +7,8 @@ import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 //
 //    public static void main(String[] args) {
 //
-//        Preson p = new Preson();
-//        Preson result = getData("D:\\workspace\\Idea-workspace\\xiaohe\\MyApiTest\\src\\main\\java\\com\\test\\yaml\\person.yaml", p);
+//        Person p = new Person();
+//        Person result = getData("D:\\workspace\\Idea-workspace\\xiaohe\\MyApiTest\\src\\main\\resources\\test\\yaml\\person.yaml", p);
 //        System.out.println(result);
 //        if (result != null) {
 //            System.out.println(result.getId());
@@ -18,7 +17,7 @@ import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 //        }
 //    }
 //
-//        public static Preson getData (String path, Preson p){
+//        public static Person getData (String path, Person p){
 //            ObjectMapper objectMapper = new ObjectMapper(new YAMLFactory());
 //
 //            try {
